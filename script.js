@@ -32,3 +32,22 @@ function updateThemeLabel(theme) {
     themeLabel.style.color = '#000'; // Set text color for light theme
   }
 }
+
+
+
+function showPopup(socialMedia) {
+    let message = '';
+  
+    // Check which social media icon was clicked and set the appropriate message
+    if (socialMedia === 'Twitter') {
+      message = 'Elon ruined it.';
+    } else if (socialMedia === 'LinkedIn') {
+      message = 'You clicked on the LinkedIn icon!';
+    } else {
+      message = 'You clicked on an unknown social media icon!';
+    }
+  
+    // Display the pop-up message
+    alert(message);
+  }
+  

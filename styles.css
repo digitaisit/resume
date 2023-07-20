@@ -227,5 +227,28 @@ header {
     margin: 0;
   }
   
-  /* ... (existing styles) ... */
+
+
+  /* Default styles for all screen sizes */
+
+/* Media query for screens with a maximum width of 768 pixels (e.g., tablets and mobile devices) */
+@media (max-width: 768px) {
+    body {
+      font-size: 16px; /* Reduce font size for better readability on small screens */
+    }
+  
+    header {
+      padding: 10px; /* Reduce header padding for smaller screens */
+    }
+  
+    .social-icons-top {
+      margin-bottom: 5px; /* Reduce margin between social icons and name */
+    }
+  
+    h1 {
+      font-size: 28px; /* Reduce name font size for smaller screens */
+    }
+  
+    /* Additional responsive styles for other elements as needed */
+  }
   
