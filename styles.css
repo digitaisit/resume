@@ -179,11 +179,15 @@ main {
 /* Header styles */
 /* ... (existing styles) ... */
 
+/* ... (existing styles) ... */
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    max-width: 900px; /* Set the maximum width of the header */
+    margin: 0 auto; /* Center the header on the page */
   }
   
   .header-content {
@@ -199,16 +203,19 @@ header {
   
   /* Additional styles as needed */
   
-  /* .social-icons-top li {
+  
+  /* Additional styles as needed */
+  
+  .social-icons-top li {
     display: inline-block;
     margin-right: 10px;
-  } */
+  }
   
-  /* .social-icons-top a {
+  .social-icons-top a {
     color: #fff;
     font-size: 24px;
     text-decoration: none;
-  } */
+  }
   
   /* Your name styles */
   h1 {
@@ -219,10 +226,13 @@ header {
 
 
 
-footer {
-    text-align: center; /* Center the content horizontally */
-    padding: 20px; /* Add padding to give some space around the content */
-  }  
+  footer {
+    padding: 10px;
+    text-align: center;
+    font-size: 8px; /* Set the font size to your preferred size, e.g., 14px */
+    background-color: var(--primary-color);
+    color: #fff;
+  }
   
   footer p {
     margin: 0; /* Remove margin to avoid extra space */
@@ -254,4 +264,7 @@ footer {
   
     /* Additional responsive styles for other elements as needed */
   }
+  
+
+
   
