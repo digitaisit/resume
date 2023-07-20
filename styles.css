@@ -103,3 +103,129 @@ body.dark-mode {
     color: #333;
   }
   
+
+  /* ... (existing styles) ... */
+
+/* Additional styles for the resume content */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: disc;
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Highlight the skills with a different background color */
+  ul.skills-list {
+    background-color: #444;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  ul.skills-list li {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #666;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+  
+  /* Social media icons color on hover */
+  .social-icons a:hover {
+    color: #2196F3;
+  }
+  
+  /* ... (existing styles) ... */
+
+  /* ... (existing styles) ... */
+
+/* ... (existing styles) ... */
+
+/* Additional styles for the theme switch */
+.theme-switch {
+    position: relative;
+    display: inline-block; /* Change display to inline-block */
+  }
+  
+  .switch {
+    /* ... (existing styles) ... */
+    margin-right: 60px;
+  }
+  
+  #theme-label {
+    font-size: 16px;
+    color: #fff;
+    position: absolute; /* Add absolute positioning */
+    top: 50%; /* Position at 50% from the top */
+    transform: translateY(-50%); /* Center vertically using translate */
+    left: 80px; /* Adjust the left position as needed */
+  }
+  
+  /* ... (existing styles) ... */
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #333;
+    color: #fff;
+  }
+/* ... (existing styles) ... */
+
+//* ... (existing styles) ... */
+
+/* Header styles */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Social media icons at the top of the page */
+  .social-icons-top {
+    margin-bottom: 10px;
+  }
+  
+  .social-icons-top ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .social-icons-top li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-icons-top a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  /* Your name styles */
+  h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  /* ... (existing styles) ... */
+  
