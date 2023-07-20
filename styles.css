@@ -85,12 +85,7 @@ body {
     margin: 0 10px;
   }
   
-  .social-icons a {
-    color: #fff;
-    font-size: 24px;
-  }
-  
-  /* Add more CSS styles as needed */
+
   /* Set up dark theme styles */
 body.dark-mode {
     background-color: #333;
@@ -149,16 +144,6 @@ main {
     border-radius: 3px;
   }
   
-  /* Social media icons color on hover */
-  .social-icons a:hover {
-    color: #2196F3;
-  }
-  
-  /* ... (existing styles) ... */
-
-  /* ... (existing styles) ... */
-
-/* ... (existing styles) ... */
 
 /* Additional styles for the theme switch */
 .theme-switch {
@@ -186,40 +171,44 @@ main {
     background-color: #333;
     color: #fff;
   }
-/* ... (existing styles) ... */
 
-//* ... (existing styles) ... */
+  
+
+
 
 /* Header styles */
+/* ... (existing styles) ... */
+
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .header-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 20px;
   }
   
-  /* Social media icons at the top of the page */
   .social-icons-top {
-    margin-bottom: 10px;
+    margin-top: 10px;
   }
   
-  .social-icons-top ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
+  /* Additional styles as needed */
   
-  .social-icons-top li {
+  /* .social-icons-top li {
     display: inline-block;
     margin-right: 10px;
-  }
+  } */
   
-  .social-icons-top a {
+  /* .social-icons-top a {
     color: #fff;
     font-size: 24px;
     text-decoration: none;
-  }
+  } */
   
   /* Your name styles */
   h1 {
@@ -228,18 +217,18 @@ header {
   }
   
 
-  /* ... (existing styles) ... */
 
-/* Footer styles */
+
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-  }
+    text-align: center; /* Center the content horizontally */
+    padding: 20px; /* Add padding to give some space around the content */
+  }  
   
   footer p {
-    margin: 0;
+    margin: 0; /* Remove margin to avoid extra space */
+  }
+  
+  /* ... (existing styles) ... */
   
 
 
