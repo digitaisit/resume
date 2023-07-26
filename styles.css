@@ -56,7 +56,7 @@ body {
     }
     
     input[type="checkbox"]:checked + .slider {
-    background-color:#2196F3
+    background-color:#000407
     }
     
     input[type="checkbox"]:checked + .slider:before {
@@ -132,7 +132,8 @@ body {
     
     .theme-switch {
     position:relative;
-    display:inline-block
+    display:inline-block;
+    padding-top: 2%;
     }
     
     .switch {
@@ -151,7 +152,8 @@ body {
     body {
     font-family:'Roboto',sans-serif;
     background-color:#333;
-    color:#fff
+    color:#fff;
+    max-width: 100;
     }
     
     header {
@@ -159,7 +161,7 @@ body {
     justify-content:space-between;
     align-items:center;
     padding:20px;
-    max-width:900px;
+    max-width:700px;
     margin:0 auto
     }
     
@@ -180,7 +182,7 @@ body {
     }
     
     .social-icons-top a {
-    font-size:24px;
+    font-size:30px;
     text-decoration:none
     }
     
@@ -202,21 +204,21 @@ body {
     }
     
     @media (max-width: 768px) {
-    body {
-    font-size:16px
-    }
-    
-    header {
-    padding:10px
-    }
-    
-    h1 {
-    font-size:28px
-    }
+        body {
+        font-size:16px
+        }
+        
+        header {
+        padding:10px
+        }
+        
+        h1 {
+        font-size:28px
+        }
     }
     
     .social-icons-top li {
-    color:#fff;
+    /* color:#fff; */
     display:inline-block;
     margin-right:20px;
     position:relative
@@ -240,3 +242,7 @@ body {
     .social-icons-top li:hover .icon-label {
     opacity:1
     }
+
+    .name-section {
+        text-align: center;
+      }

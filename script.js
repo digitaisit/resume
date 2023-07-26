@@ -2,6 +2,8 @@ const themeToggle = document.getElementById('theme-toggle');
 const themeLabel = document.getElementById('theme-label');
 const body = document.body;
 const footer = document.querySelector('footer');
+const socialIconTwitter = document.querySelector('.social-icons-top .fab.fa-twitter');
+const socialIconLinkedin = document.querySelector('.social-icons-top .fab.fa-linkedin');
 
 // Check the user's theme preference from local storage
 const currentTheme = localStorage.getItem('theme');
@@ -31,10 +33,20 @@ function updateThemeLabel(theme) {
     themeLabel.textContent = 'Burn your eyes';
     themeLabel.style.color = '#fff'; // Set text color for dark theme
     footer.style.color = '#fff'; // Set text color for dark theme in the footer
+    socialIconTwitter.style.color = '#fff';
+    socialIconLinkedin.style.color = '#fff';
+    // socialIconsTop.forEach(icon => {
+    //   icon.style.color = '#fff'; // Invert the color of the social icons for dark theme
+    // });
   } else {
     themeLabel.textContent = 'Quickly back!';
     themeLabel.style.color = '#000'; // Set text color for light theme
     footer.style.color = '#000'; // Set text color for light theme in the footer
+    socialIconTwitter.style.color = '#000';
+    socialIconLinkedin.style.color = '#000';
+    // socialIconsTop.forEach(icon => {
+    //   icon.style.color = '#000'; // Reset the color of the social icons for light theme
+    // });
   }
 }
 
