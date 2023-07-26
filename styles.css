@@ -246,3 +246,10 @@ body {
     .name-section {
         text-align: center;
       }
+
+      img.custom-icon {
+        width: 30px; /* Set the width of the SVG icon */
+        height: 30px; /* Set the height of the SVG icon */
+        /* margin-top: 50px; */
+      }
+

@@ -4,6 +4,8 @@ const body = document.body;
 const footer = document.querySelector('footer');
 const socialIconTwitter = document.querySelector('.social-icons-top .fab.fa-twitter');
 const socialIconLinkedin = document.querySelector('.social-icons-top .fab.fa-linkedin');
+const socialIconPornhub = document.getElementById('custom-icon');
+
 
 // Check the user's theme preference from local storage
 const currentTheme = localStorage.getItem('theme');
@@ -35,6 +37,8 @@ function updateThemeLabel(theme) {
     footer.style.color = '#fff'; // Set text color for dark theme in the footer
     socialIconTwitter.style.color = '#fff';
     socialIconLinkedin.style.color = '#fff';
+    // socialIconPornhub.style.color = '#fff';
+    socialIconPornhub.src = 'phicon.png';
     // socialIconsTop.forEach(icon => {
     //   icon.style.color = '#fff'; // Invert the color of the social icons for dark theme
     // });
@@ -44,6 +48,8 @@ function updateThemeLabel(theme) {
     footer.style.color = '#000'; // Set text color for light theme in the footer
     socialIconTwitter.style.color = '#000';
     socialIconLinkedin.style.color = '#000';
+    // socialIconPornhub.style.color = '#000';
+    socialIconPornhub.src = 'phicon_wh.png';
     // socialIconsTop.forEach(icon => {
     //   icon.style.color = '#000'; // Reset the color of the social icons for light theme
     // });
