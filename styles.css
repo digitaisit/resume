@@ -226,7 +226,7 @@ body {
     
     .icon-label {
     position:absolute;
-    top:-25px;
+    top:-35px;
     left:50%;
     transform:translateX(-50%);
     background-color:#333;
