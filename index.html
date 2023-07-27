@@ -14,7 +14,7 @@
 </script> -->
 
 <!-- <a title="GDPR-compliant Web Analytics" href="https://clicky.com/101420035"><img alt="Clicky" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a> -->
-<script async data-id="101420035" src="//static.getclicky.com/js"></script>
+<!-- <script async data-id="101420035" src="//static.getclicky.com/js"></script> -->
 
 
 
@@ -24,6 +24,17 @@
   <link rel="stylesheet" href="styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <script>
+    // Check if it's the first visit
+    if (!localStorage.getItem("firstVisit")) {
+      // Set the flag in localStorage to indicate it's the first visit
+      localStorage.setItem("firstVisit", "true");
+  
+      // Perform the reload
+      window.location.reload();
+    }
+  </script>
+
 </head>
 <body>
   <header>
@@ -31,16 +42,16 @@
         <ul>
           <li>
             <span class="icon-label">Is it still alive?</span>
-            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-twitter" style="color: rgb(255, 255, 255);"></i></a>
           </li>
           <li>
             <span class="icon-label"></span>
-            <a href="https://www.linkedin.com/in/michal-palko/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/username/" target="_blank"><i class="fab fa-linkedin" style="color: rgb(255, 255, 255);"></i></a>
           </li>
-          <li>
+          <!-- <li>
             <span class="icon-label">Really?</span>
-            <a href="#"><img src="phicon_wh.png" alt="" class="custom-icon" id="custom-icon"></a>
-          </li>
+            <a href="#"><img src="phicon.png" alt="" class="custom-icon" id="custom-icon"></a>
+          </li> -->
 
           <!-- <li><a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a></li> -->
           <!-- Add more social media links as needed -->
@@ -51,7 +62,7 @@
         <label class="switch">
           <input type="checkbox" id="theme-toggle">
           <span class="slider round"></span>
-          <span id="theme-label">Switch to Dark</span>
+          <span id="theme-label">Burn your eyes</span>
         </label>
       </div>
 
@@ -66,12 +77,12 @@
         <main>
             <section>
               <div class="name-section">
-                <h1>Michal Palko</h1>
-                <p>michalpalko7@gmail.com</p>
+                <h1>Name</h1>
+                <p>contact</p>
               </div>
               <h2>Summary</h2>
               <p>
-                I am a motivated and enthusiastic individual with a passion for web development. I have experience in HTML, CSS,
+                GPT generated text: I am a motivated and enthusiastic individual with a passion for web development. I have experience in HTML, CSS,
                 and JavaScript, and I am eager to learn new technologies to enhance my skills further.
               </p>
             </section>
@@ -112,7 +123,7 @@
 
   <footer>
     <div>
-        <p>&copy; 2023 Michal Palko. All rights reversed.</p>
+        <p>&copy; 2023 Me. All rights reversed.</p>
         <p>All content is 100% gluten-free and non-GMO.</p>
     </div>
 </footer>
